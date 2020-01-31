@@ -1,0 +1,30 @@
+@import//     Georgia Tech default web styles
+
+     'gt/gt_framework',
+     'gt/gt_styles';
+
+@import//     Site-wide styles, Brand elements & visuals
+
+     'rules/colors',
+     'rules/typography';
+
+@import//     SASS Mixins & Utilities
+
+     'mixins/breakpoints()',
+     'mixins/flex()';
+
+@import//      DOM & Components 
+
+     'components/all',
+     'components/uiview';
+
+@import//      Routes 
+
+     'routes/all',
+     'routes/login/login',
+     'routes/portal/portal-color',
+     'routes/portal/portal-design',
+     'routes/portal/portal-hover',
+     'routes/portal/portal-structure';
+
+

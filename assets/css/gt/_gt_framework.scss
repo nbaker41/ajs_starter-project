@@ -1,0 +1,720 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500,400italic,500italic,700italic,300|Oswald);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+     font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+body {
+     margin: 0;
+     padding: 0;
+}
+
+#masthead {
+     min-height: 0px;
+     padding-top: 0px;
+     position: relative;
+}
+
+#identity {
+     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.85);
+     position: relative;
+     top: 0;
+}
+
+#site-title {
+     color: #EEB211;
+     float: right;
+     /*font-family: "FoundationSansCondensed";*/
+
+     font-family: 'Oswald', sans-serif;
+     font-weight: 500;
+     letter-spacing: 0.05em;
+     margin: 0;
+     padding: 28px 30px 0 0;
+     text-align: right;
+     text-shadow: 0 1px 2px #000000;
+     max-width: 40%;
+}
+
+#site-title a:link,
+#site-title a:visited,
+#site-title a:hover,
+#site-title a:active {
+     color: #EEB211;
+     text-decoration: none;
+}
+
+#site-title.two-line {
+     font-size: 1.7143em;
+     line-height: 1.05;
+     padding-top: 18px;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     height: 0;
+     clear: both;
+     visibility: hidden;
+}
+
+#identity-wrapper {
+     background-color: transparent;
+     max-width: 1170px;
+     height: 90px;
+     margin: 0 auto;
+     overflow: hidden;
+}
+
+#gt-logo {
+     float: left;
+     margin: 0;
+     position: relative;
+     width: 60%;
+}
+
+h1 {
+     font-size: 2.625em;
+}
+
+#gt-logo-mothership-link {
+     background: url("img/ie-sucks.png");
+     display: block;
+     height: 0;
+     left: 0;
+     overflow: hidden;
+     padding: 75px 0 0 0;
+     position: absolute;
+     top: 0;
+     width: 25%;
+}
+
+#primary-menus {
+     background: #EEB211 url("img/bg-tile-primary-menus.png") repeat-y center center;
+     position: relative;
+     top: 0;
+}
+
+#primary-menus-wrapper {
+     background-color: #E6E6E6;
+     margin: 0 auto;
+     max-width: 1170px;
+}
+
+#primary-menus-toggle {
+     background-color: #EEB211;
+     color: #fff;
+     cursor: pointer;
+     display: block;
+     float: left;
+     padding: 3px 8px;
+     text-transform: uppercase;
+}
+
+#primary-menus-toggle span {
+     display: block;
+     float: left;
+     margin: 5px 0 0 6px;
+}
+
+#primary-menus-close {
+     background-color: #f1f1f1;
+     border-radius: 0 5px 5px 0;
+     cursor: pointer;
+     display: block;
+     height: 44px;
+     overflow: hidden;
+     position: absolute;
+     right: -44px;
+     top: 1px;
+     width: 44px;
+}
+
+#primary-menus-close span {
+     display: none;
+}
+
+footer,
+header {
+     display: block;
+}
+
+#main-menu-wrapper {
+     float: left;
+     position: relative;
+}
+
+#main-menu-wrapper ul,
+#action-items {
+     background-color: #EEB211;
+     float: left;
+     font-size: .88em;
+     line-height: 1.7;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+
+ul.menu {
+     border: none;
+     list-style: none;
+     text-align: left;
+}
+
+#main-menu-wrapper li,
+#action-items li {
+     background-image: none;
+     float: left;
+     font-weight: 400;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     position: relative;
+}
+
+#main-menu-wrapper a:link,
+#main-menu-wrapper a:visited {
+     color: #00254C;
+     text-decoration: none;
+}
+
+#action-items-wrapper {
+     float: left;
+     position: relative;
+}
+
+#action-items {
+     background: #e6e6e6;
+     background: -moz-linear-gradient(left, #b2b2b2 0%, #e6e6e6 3%);
+     background: -webkit-gradient(linear, left top, right top, color-stop(0%, #b2b2b2), color-stop(3%, #e6e6e6));
+     background: -webkit-linear-gradient(left, #b2b2b2 0%, #e6e6e6 3%);
+     background: -o-linear-gradient(left, #b2b2b2 0%, #e6e6e6 3%);
+     background: -ms-linear-gradient(left, #b2b2b2 0%, #e6e6e6 3%);
+     background: linear-gradient(to right, #b2b2b2 0%, #e6e6e6 3%);
+     padding: 0 0 0 3px;
+}
+
+#action-items li {
+     text-transform: uppercase;
+}
+
+#action-items a:link,
+#action-items a:visited {
+     color: #646464;
+     text-decoration: none;
+     padding-right: 18px;
+}
+
+#action-items a:after {
+     color: #AAAAAA;
+     content: "\f105";
+     display: inline-block;
+     font-family: FontAwesome;
+     font-size: 1.4em;
+     line-height: 1;
+     position: absolute;
+     right: 6px;
+     top: 7px;
+}
+
+#main-menu-wrapper a,
+#action-items a {
+     display: block;
+     padding: 6px 12px;
+}
+
+#utility {
+     background-color: #fff;
+     border-top: 2px solid #999;
+     box-shadow: none;
+     left: 0;
+     position: absolute;
+     top: -135px;
+     width: 100%;
+     z-index: 100;
+     min-height: 45px;
+     overflow: hidden;
+}
+
+#utility .row {
+     padding: 0;
+}
+
+.row {
+     max-width: 1170px;
+     margin: 0 auto;
+}
+
+#utility-links {
+     float: left;
+}
+
+#utility-links .menu,
+#social-media-links {
+     float: left;
+     margin: 0;
+     padding: 0;
+}
+
+#utility-links .ulink,
+#social-media-links li {
+     display: block;
+     float: left;
+     margin: 0;
+     padding: 0;
+}
+
+#utility-links .ulink a:link,
+#utility-links .ulink a:visited {
+     text-decoration: none;
+}
+
+#utility-links .ulink a {
+     color: #646464;
+     display: block;
+     font-size: .86em;
+     font-weight: 700;
+     line-height: 1.2;
+     margin: 0 1px 0 0;
+     padding: 13px 10px 13px 28px;
+     position: relative;
+}
+
+#utility-links .mothership a:before,
+#utility-links .campus-map a:before,
+#utility-links .offices a:before,
+#utility-links .directories a:before {
+     color: #8C8C8C;
+     content: '\f0a8';
+     display: inline-block;
+     font-family: FontAwesome;
+     font-size: 1.4em;
+     font-style: normal;
+     font-weight: normal;
+     left: 9px;
+     line-height: 1;
+     position: absolute;
+     text-decoration: none;
+     top: 12px;
+}
+
+#utility-links .mothership a:before {
+     content: '\f015';
+}
+
+#utility-links .campus-map a:before {
+     content: '\f041';
+     left: 11px;
+}
+
+#utility-links .directories a:before {
+     content: '\f007';
+}
+
+#utility-links .offices a:before {
+     content: '\f0f7';
+}
+
+.hide-for-desktop {
+     display: none !important;
+}
+
+/*---------Specific Styles for StatusPage.io-------*/
+
+#subscribe-to-updates {
+     text-align: right;
+}
+
+#subscribe-to-updates .show-updates-dropdown {
+     background-color: #0058a9;
+     color: #fff;
+     border-radius: 4px;
+     -moz-border-radius: 4px;
+     -webkit-border-radius: 4px;
+     -o-border-radius: 4px;
+     -ms-border-radius: 4px;
+     border: none;
+     display: inline-block;
+     text-align: center;
+     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     padding: 8px 10px 7px 10px;
+     font-size: 0.75rem;
+     line-height: 1.1625rem;
+     margin-top: 30px;
+}
+
+.layout-content.status .custom-header-container {
+     margin-bottom: 30px;
+}
+
+/*---------SuperFooter-------*/
+
+#superfooter {
+     background-color: #646464;
+     height: 316px!important;
+     width: 100%;
+     overflow: hidden;
+}
+
+#superfooter>.row {
+     padding: 20px 10px 10px 10px;
+}
+
+.superfooter-resource-links {
+     float: left;
+     padding: 0 10px 10px;
+     position: relative;
+     width: 16.5%;
+}
+
+.superfooter-gt-default-mini .superfooter-resource-links {
+     width: 22.22%;
+}
+
+.superfooter-resource-links .title,
+.superfooter-resource-links ul.menu span.nolink {
+     color: #EEB211;
+     font-size: 1em;
+     letter-spacing: 0.05em;
+     line-height: 1.15;
+     margin: 0 0 0.6em;
+     padding: 0;
+     text-shadow: 0 1px 0 #333333;
+}
+
+.superfooter-gt-default-mini .superfooter-resource-links .title {
+     border-bottom: 1px dotted #D8A10C;
+     padding-bottom: 5px;
+}
+
+.superfooter-resource-links ul.menu {
+     display: block;
+     font-size: .7857em;
+     letter-spacing: .05em;
+     line-height: 1.4;
+     margin: 0 0 12px 0;
+     padding: 0;
+}
+
+.superfooter-gt-default-mini #gt-default-visitor-links {
+     width: 44.44%;
+}
+
+.superfooter-resource-links ul.menu li {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+
+.superfooter-gt-default-mini ul#gt-visitor-resources.menu li.gt-default-mini-left {
+     clear: left;
+     float: left;
+     padding-right: 10px;
+     width: 50%;
+}
+
+.superfooter-resource-links ul.menu li a {
+     color: #f1f1f1;
+     display: block;
+     padding: 0.5em 0 0.5em 3px;
+     text-decoration: none;
+}
+
+#street-address-info {
+     float: right;
+     padding: 0 15px;
+     width: 25.33%;
+}
+
+#street-address-info img {
+     box-shadow: 0px 2px 5px #333;
+}
+
+#street-address-info p {
+     color: #fff;
+     font-size: .857em;
+     margin-top: 6px;
+}
+
+/*---------Footer-------*/
+
+#footer {
+     background-color: #EEB211;
+}
+
+#footer .row {
+     padding: 10px;
+}
+
+#footer-utility-links {
+     float: right;
+     position: relative;
+}
+
+#footer-utility-links .gt-footer-utility-links-wrapper.login-link-included {
+     padding-top: 0px;
+}
+
+#footer-utility-links .menu {
+     margin: 0;
+     padding: 5px 0;
+     text-align: right;
+}
+
+#footer-utility-links .menu.gt-footer-legal-links {
+     margin-top: 15px;
+}
+
+#footer-utility-links .menu li {
+     display: inline;
+     font-size: .786em;
+     padding: 2px 0 2px 10px;
+     margin: 0 0 2px;
+}
+
+#footer-utility-links .menu li a {
+     color: #6c5003;
+     text-decoration: none;
+}
+
+#footer-utility-links .menu li:after {
+     content: '\f142';
+     display: inline-block;
+     color: #b08612;
+     font-family: "FontAwesome";
+     font-size: .8em;
+     margin-left: 10px;
+}
+
+#footer-utility-links .menu li.last:after {
+     content: '';
+}
+
+#footer-utility-links .menu.gt-footer-login-links li {
+     padding: 0;
+     margin: 0 0 0 12px;
+}
+
+#footer-utility-links .menu.gt-footer-login-links li.first {
+     margin-right: 12px;
+}
+
+#footer-logo {
+     float: left;
+     text-align: center;
+}
+
+#footer-logo img {
+     width: 140px;
+     height: auto;
+     max-width: 100%;
+     vertical-align: middle;
+}
+
+#footer-logo p {
+     color: #6c5003;
+     font-size: .786em;
+     line-height: 1.1;
+     margin: 0 0 6px 0;
+}
+
+@media only screen and (max-width: 31em) {
+     #utility {
+          display: none;
+     }
+
+     #utility-links {
+          background-color: #fff;
+          float: none;
+          left: 0;
+          position: absolute;
+          top: 0;
+     }
+
+     #site-title,
+     #site-title.two-line {
+          font-size: 1.429em;
+          padding: 0 0 20px 15px;
+     }
+
+     #site-title {
+          max-width: 100%;
+     }
+
+     #gt-logo-mothership-link {
+          width: 30%;
+     }
+
+     #gt-logo img {
+          height: 100%;
+          margin: 0 auto;
+          width: auto;
+     }
+
+     #gt-logo,
+     #site-title {
+          float: none;
+          text-align: left;
+          width: 100%;
+     }
+
+     #gt-logo {
+          height: 70px;
+     }
+
+     #identity-wrapper {
+          height: auto;
+     }
+
+     /*FOOTER*/
+     #superfooter {
+          height: auto;
+     }
+
+     .superfooter-resource-links,
+     .superfooter-gt-default-mini .superfooter-resource-links,
+     .superfooter-gt-default-mini #gt-default-visitor-links {
+          float: none;
+          padding: 0;
+          width: 100%;
+     }
+
+     .superfooter-resource-links ul.menu {
+          /*display: none;
+        background-color: #454545;*/
+          margin: 0 0 16px;
+          padding: 10px 10px 10px 14px;
+     }
+
+     .superfooter-gt-default-mini ul#gt-visitor-resources.menu li.gt-default-mini-left,
+     .superfooter-gt-default-mini ul#gt-visitor-resources.menu li.gt-default-mini-right {
+          float: none;
+          padding: 0;
+          width: 100%;
+     }
+
+     #street-address-info {
+          border-top: 1px solid #999;
+          clear: left;
+          float: left;
+          padding: 20px 10px 0;
+          width: 100%;
+     }
+
+     #footer-utility-links .menu {
+          text-align: center;
+     }
+
+     #footer-logo {
+          float: none;
+          text-align: center;
+     }
+}
+
+@media only screen and (max-width: 51em) and (min-width: 31em) {
+     #utility {
+          display: none;
+          border-bottom: 2px solid #999;
+          box-shadow: none;
+          position: static;
+     }
+
+     #utility-links {
+          background-color: #fff;
+          float: none;
+          left: 0;
+          position: absolute;
+          top: 0;
+     }
+
+     #gt-logo {
+          height: 70px;
+     }
+
+     #site-title,
+     #site-title.two-line {
+          font-size: 1.429em;
+          padding: 0 0 20px 15px;
+     }
+
+     #gt-logo,
+     #site-title {
+          float: none;
+          text-align: left;
+          width: 100%;
+     }
+
+     #gt-logo img {
+          height: 100%;
+          margin: 0 auto;
+          width: auto;
+     }
+
+     #gt-logo-mothership-link {
+          width: 15%;
+     }
+
+     #identity-wrapper {
+          height: auto;
+     }
+
+     #identity {
+          border-top: 2px solid #999;
+     }
+
+     /*FOOTER*/
+     #superfooter {
+          height: auto;
+     }
+
+     .superfooter-gt-default-mini .superfooter-resource-links {
+          width: 33.33%;
+     }
+
+     .superfooter-gt-default-mini #gt-default-visitor-links {
+          width: 66.66%;
+     }
+
+     #street-address-info {
+          clear: left;
+          float: left;
+          width: 100%;
+     }
+
+     #footer-utility-links .menu {
+          text-align: center;
+     }
+
+     #footer-logo {
+          float: none;
+          text-align: center;
+     }
+}
+
+@media only screen and (min-width: 51em) {
+     #masthead {
+          padding-top: 45px;
+     }
+
+     #main-menu-wrapper ul li {
+          cursor: pointer;
+     }
+
+     #main-menu-wrapper ul ul {
+          border-top: 2px solid #A37908;
+          display: none;
+          float: none;
+          left: 0;
+          position: absolute;
+          top: 100%;
+          width: 186px;
+          z-index: 99;
+     }
+
+     .superfooter-resource-links ul.menu {
+          display: block !important;
+     }
+}

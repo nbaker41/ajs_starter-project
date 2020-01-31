@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+}
+
+#register {
+    form {
+        margin: 0 auto;
+        width: 600px;
+        border-radius: 20px;
+        padding-left: 2%;
+    }
+
+    .byline {
+
+        text-align: center;
+
+    }
+
+    #reg {
+        padding-top: .2%;
+
+        #submit {
+            width: 100px;
+            height: 50px;
+            margin-top: 1%;
+        }
+
+        input {
+            width: 250px;
+            clear:both;
+        }
+        
+        .info{
+            height:40px;
+            padding:4px 0 5% 0;
+            
+            .fl{
+                float:left;
+                margin-right: 8%;
+            }
+        }
+         #contact{
+            clear:both;
+        }
+        .account-reg {
+            margin-top: 1%;
+            padding-bottom: 2%;
+        }
+    }
+
+}
+
+
+
+
+//Log in form
+#login{
+    padding-top:5%;
+    margin: 0 auto;
+    h2{
+        padding-top: 8%;
+    }
+    #password{
+        margin-bottom: 5%;
+    }
+    input{
+        margin-top:3%;
+        width:365px;
+    }
+    #submit {
+        width: 100px;
+        height: 50px;
+        margin-top: .5%;
+    }
+    
+    form{
+        padding-left: 2%;
+        width: 400px;
+    }
+ }
+
+ //portal
+ #portal{
+   width:100%;
+   //margin:2% 0 0 0;
+   position: relative;
+   clear:both;
+
+
+ .header {
+    padding: 10px 16px;
+    position:sticky;
+    position:-webkit-sticky;
+    
+    a{
+      padding-left:10px;
+    }
+    .save{
+      padding-right:3px;
+      
+    }
+  }
+  /* Style the tab */
+  .tab {
+    width: 33.24%;
+    height: 500px;
+    button {
+      display: block;
+      padding: 22px 16px 22px;
+      width: 80%;
+      transition: 0.3s;
+    }
+  }
+  .pan{
+    width: 33.24%;
+    height: 500px;
+  /* Style the tab content */
+  .tabcontent {
+    padding: 0px 12px;
+    
+  }
+  }
+  
+  
+  .tab2 {
+      width: 100%;
+      height: 500px;
+      button {
+        display: block;
+        padding: 22px 16px;
+        width: 100%;
+        transition: 0.3s;
+      }
+      
+    }
+  
+  
+  
+  //panel 3: content
+  .tablinks2 {
+    width: 100%;
+    height: 200px;
+    padding: 25px 15px;
+  
+  
+  
+        .info{ 
+          padding-left:10px;
+  
+          .desc p{
+            padding-left:20px;
+          }
+  
+          .cal{
+            margin-left:20px;
+          }
+  
+  
+          .clock{
+            margin-left: 20px;
+          }
+  
+          .sidicons{
+            .dload{
+              margin-top:35px;
+              margin-right:2px;
+            }
+            .delete{
+              clear:both;
+              margin-top:35px;
+            }
+          }
+        }
+  
+    }
+  }
+ 

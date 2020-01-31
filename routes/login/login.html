@@ -1,0 +1,18 @@
+<keyboard></keyboard>
+
+<div class="intro" id="login">
+    <h1>Welcome to the Digital Signage Portal</h1>
+    <p>Please login below</p>
+
+    <form action="index.html" ng-submit="submitForm()" ng-controller="FormCtrl">
+        <h2>Login</h2>
+       <label class="account-info"> User ID: <input id="user-id" type="text" name="userID" ng-model="form.username" username required></label>
+       <br>
+       <br>
+       <label class="account-info"> Password: <input id="password" type="password" name="password" ng-model="form.password" password required></label>
+        <input id="submit" type="submit" value="Submit" ng-click="Submit" class="hvr-bob">
+       <br>
+    </form>
+    <p class="forgot"> <a href="">Forgot My Password</a>  |  <a href="reg.html">I Don't Have An Account</a> </p>
+
+</div>

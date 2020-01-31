@@ -1,0 +1,74 @@
+#register {
+    a {
+        color: #000;
+
+        &:hover {
+            color: $gtblue;
+        }
+    }
+
+    #submit {
+        border: $gtblue;
+        background-color: transparent;
+        color: $gtblue;
+    }
+
+    form {
+        background: $gtgold;
+    }
+}
+
+//portal
+.header {
+    background: $gtgold;
+}
+
+.tab {
+    border: #ccc;
+    background-color: #f1f1f1;
+
+    button {
+        background-color: inherit;
+        color: black;
+    }
+}
+
+.tablinks {
+    &:hover {
+        background-color: #ccc;
+    }
+
+    &:active {
+        background-color: #ccc;
+    }
+}
+
+.pan {
+    border: #ccc;
+}
+
+.tab2 {
+    button {
+        background-color: inherit;
+        color: black;
+    }
+
+}
+
+.tablinks2 {
+    &:hover {
+        background-color: #f1f1f1;
+    }
+
+    &:active {
+        color: $gtgold;
+    }
+}
+
+
+
+
+//panel 3: content
+.tablinks2 {
+    border: #ccc;
+}

@@ -1,0 +1,22 @@
+body{
+     &.home{
+          ui-view{
+               background: red;
+          }
+     }
+     &.login{
+          ui-view{
+               background: blue;
+          }
+     }
+     &.register{
+          ui-view{
+               background: green;
+          }
+     }
+     &.portal{
+          ui-view{
+               background: yellow;
+          }
+     }
+}

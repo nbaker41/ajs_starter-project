@@ -1,0 +1,20 @@
+//Login Page
+#login {
+     #submit {
+         background-color: transparent;
+         color: $gtblue;
+     }
+ 
+     a {
+         color: #000;
+ 
+         &:hover {
+             color: $gtblue;
+         }
+     }
+ 
+     form {
+         background: $gtgold;
+     }
+ }
+ 
